@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Shooters /> Should display error message for negative number 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+      style="text-align: center; margin: 30px;"
+    >
+      <form
+        class="form-group"
+      >
+        <label
+          for="formGroupExampleInput"
+        >
+          Nombre de shooters:
+          <input
+            class="form-control"
+            id="formGroupExampleInput"
+            type="text"
+            value="-3"
+          />
+        </label>
+        <input
+          type="submit"
+          value="Envoyer"
+        />
+        <div>
+          Entrez s'il vous plaît une valeur intégrale comprise entre 0 et 99
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+`;

@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
+import { number } from 'yup/lib/locale'
 import schema from "../controllers/schema"
 
 function Shooter() {
     const [isValidData, changeIsValidData] = useState(false)
     const [numberOfShooters, setShooters] = useState("")
-    // states of differents songs versions
+    //states of differents songs versions
     const [songForZeroShooter, displaySongForZeroShooter] = useState(false)
     const [songForOneShooter, displaySongForOneShooter] = useState(false)
     const [songForTwoShooters, displaySongForTwoShooters] = useState(false)
@@ -56,14 +57,13 @@ function Shooter() {
                 displaySong(true)
             }
     }
-
     return (
         <>
             <div className="container" style={{ textAlign: "center", margin: "30px" }}>
                 <form onSubmit={handleSubmit} className="form-group">
                     <label for="formGroupExampleInput">
                         Nombre de shooters:
-                     <input className="form-control" id="formGroupExampleInput" type="text" onChange={updateShootersValue} /></label>
+                     <input className="form-control" id="formGroupExampleInput" value={numberOfShooters} type="text" onChange={updateShootersValue} /></label>
                     <input type="submit" value="Envoyer" />
                     <div>{isValidData && "Entrez s'il vous plaît une valeur intégrale comprise entre 0 et 99"}</div>
                 </form>
