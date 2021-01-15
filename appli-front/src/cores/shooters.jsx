@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import schema from "../controllers/schema"
 
-function Comment() {
-
+function Shooter() {
     const [isValidData, changeIsValidData] = useState(false)
     const [numberOfShooters, setShooters] = useState("")
-
+    // states of differents songs versions
     const [songForZeroShooter, displaySongForZeroShooter] = useState(false)
     const [songForOneShooter, displaySongForOneShooter] = useState(false)
     const [songForTwoShooters, displaySongForTwoShooters] = useState(false)
     const [song, displaySong] = useState(false)
 
+    //update messages, depend of isValidData statut
     function updateShootersValue(event) {
         if (songForZeroShooter === true || songForOneShooter === true ||songForTwoShooters === true || song === true ) {
             displaySongForZeroShooter(false)
@@ -24,6 +24,7 @@ function Comment() {
         setShooters(event.target.value)
     }
 
+    //call when the form is submitted, check if value is correct. If yes, update numberOfShooters state
     function handleSubmit(event) {
         schema
             .isValid({
@@ -34,24 +35,26 @@ function Comment() {
                     changeIsValidData(true)
                 } else {
                     setShooters(numberOfShooters)
+                    alert()
                 }
             })
         event.preventDefault()
-        alert()
+        
     }
-
+// call in handleSubmit, if data is correct, display the good song version
     function alert() {
-        if (numberOfShooters === "0") {
-            displaySongForZeroShooter(true)
-        }
-        if (numberOfShooters === "1") {
-            displaySongForOneShooter(true)
-        }
-        if (numberOfShooters === "2") {
-            displaySongForTwoShooters(true)
-        } else if (numberOfShooters >= "3") {
-            displaySong(true)
-        }
+            if (numberOfShooters === "0") {
+                displaySongForZeroShooter(true)
+            }
+           else if (numberOfShooters === "1") {
+                displaySongForOneShooter(true)
+            }
+           else if (numberOfShooters === "2") {
+                displaySongForTwoShooters(true)
+            } 
+            else  {
+                displaySong(true)
+            }
     }
 
     return (
@@ -67,7 +70,8 @@ function Comment() {
                 {
                     songForZeroShooter &&
                     <p>Plus de shooters sans alcool sur le mur, plus de shooters sans alcool.
-                    Vas au supermarché pour en acheter, 99 shooters sans alcool sur le mur.</p>}
+                    Vas au supermarché pour en acheter, 99 shooters sans alcool sur le mur.</p>
+                }
                 {
                     songForOneShooter &&
                     <p>1 shooter sans alcool sur le mur, 1 shooter sans alcool.
@@ -87,4 +91,4 @@ function Comment() {
         </>
     )
 }
-export default Comment
+export default Shooter
