@@ -5,7 +5,7 @@ exports[`<Shooters /> Should display an error message for anything else than num
   <div>
     <div
       class="container"
-      style="text-align: center; margin: 30px;"
+      style="text-align: center; margin-top: 30px;"
     >
       <form
         class="form-group"
@@ -37,7 +37,7 @@ exports[`<Shooters /> Should display an error message for numbers greater than 9
   <div>
     <div
       class="container"
-      style="text-align: center; margin: 30px;"
+      style="text-align: center; margin-top: 30px;"
     >
       <form
         class="form-group"
@@ -69,7 +69,7 @@ exports[`<Shooters /> Should display error message for negative number 1`] = `
   <div>
     <div
       class="container"
-      style="text-align: center; margin: 30px;"
+      style="text-align: center; margin-top: 30px;"
     >
       <form
         class="form-group"
@@ -101,7 +101,7 @@ exports[`<Shooters /> Should display the song of zero shooters if value equal 0 
   <div>
     <div
       class="container"
-      style="text-align: center; margin: 30px;"
+      style="text-align: center; margin-top: 30px;"
     >
       <form
         class="form-group"
@@ -134,7 +134,7 @@ exports[`<Shooters /> Should display the song of zero shooters if value equal 1 
   <div>
     <div
       class="container"
-      style="text-align: center; margin: 30px;"
+      style="text-align: center; margin-top: 30px;"
     >
       <form
         class="form-group"
@@ -167,7 +167,7 @@ exports[`<Shooters /> Should display the song of zero shooters if value equal 2 
   <div>
     <div
       class="container"
-      style="text-align: center; margin: 30px;"
+      style="text-align: center; margin-top: 30px;"
     >
       <form
         class="form-group"

@@ -14,9 +14,9 @@ Exécuter ces commandes dans le dossier <strong>CDA_1</strong>
 ### `npm start`
 
 Exécute l'application en mode développement. 
-Ouvrez [http: // localhost: 3000] (http: // localhost: 3000) pour l'afficher dans le navigateur.
+Ouvrez [http://localhost:3000](http: // localhost: 3000) pour l'afficher dans le navigateur.
 
-### `npm run test -- CDA_1/src/cores/shooters.spec.jsx`
+### `npm run test -- CDA_1/src/pages/shooters.spec.jsx`
 
 Exécute les tests contenus dans le fichier shooters.spec.jsx.
 Les résultats s'afficheront dans le terminal.
