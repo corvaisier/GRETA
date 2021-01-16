@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { number } from 'yup/lib/locale'
 import schema from "../controllers/schema"
 
 function Shooter() {
@@ -59,9 +58,9 @@ function Shooter() {
     }
     return (
         <>
-            <div className="container" style={{ textAlign: "center", margin: "30px" }}>
+            <div className="container" style={{ textAlign: "center", marginTop: "30px" }}>
                 <form onSubmit={handleSubmit} className="form-group">
-                    <label for="formGroupExampleInput">
+                    <label>
                         Nombre de shooters:
                      <input className="form-control" id="formGroupExampleInput" value={numberOfShooters} type="text" onChange={updateShootersValue} /></label>
                     <input type="submit" value="Envoyer" />

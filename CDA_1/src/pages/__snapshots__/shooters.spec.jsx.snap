@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Shooters /> Should display an error message for anything else than numbers 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+      style="text-align: center; margin: 30px;"
+    >
+      <form
+        class="form-group"
+      >
+        <label>
+          Nombre de shooters:
+          <input
+            class="form-control"
+            id="formGroupExampleInput"
+            type="text"
+            value="AHA!"
+          />
+        </label>
+        <input
+          type="submit"
+          value="Envoyer"
+        />
+        <div>
+          Entrez s'il vous plaît une valeur intégrale comprise entre 0 et 99
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<Shooters /> Should display an error message for numbers greater than 99 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+      style="text-align: center; margin: 30px;"
+    >
+      <form
+        class="form-group"
+      >
+        <label>
+          Nombre de shooters:
+          <input
+            class="form-control"
+            id="formGroupExampleInput"
+            type="text"
+            value="101"
+          />
+        </label>
+        <input
+          type="submit"
+          value="Envoyer"
+        />
+        <div>
+          Entrez s'il vous plaît une valeur intégrale comprise entre 0 et 99
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<Shooters /> Should display error message for negative number 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+      style="text-align: center; margin: 30px;"
+    >
+      <form
+        class="form-group"
+      >
+        <label>
+          Nombre de shooters:
+          <input
+            class="form-control"
+            id="formGroupExampleInput"
+            type="text"
+            value="-3"
+          />
+        </label>
+        <input
+          type="submit"
+          value="Envoyer"
+        />
+        <div>
+          Entrez s'il vous plaît une valeur intégrale comprise entre 0 et 99
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<Shooters /> Should display the song of zero shooters if value equal 0 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+      style="text-align: center; margin: 30px;"
+    >
+      <form
+        class="form-group"
+      >
+        <label>
+          Nombre de shooters:
+          <input
+            class="form-control"
+            id="formGroupExampleInput"
+            type="text"
+            value="0"
+          />
+        </label>
+        <input
+          type="submit"
+          value="Envoyer"
+        />
+        <div />
+      </form>
+      <p>
+        Plus de shooters sans alcool sur le mur, plus de shooters sans alcool. Vas au supermarché pour en acheter, 99 shooters sans alcool sur le mur.
+      </p>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<Shooters /> Should display the song of zero shooters if value equal 1 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+      style="text-align: center; margin: 30px;"
+    >
+      <form
+        class="form-group"
+      >
+        <label>
+          Nombre de shooters:
+          <input
+            class="form-control"
+            id="formGroupExampleInput"
+            type="text"
+            value="1"
+          />
+        </label>
+        <input
+          type="submit"
+          value="Envoyer"
+        />
+        <div />
+      </form>
+      <p>
+        1 shooter sans alcool sur le mur, 1 shooter sans alcool. Bois en un et au suivant ! plus de shooters sans alcool sur le mur.
+      </p>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<Shooters /> Should display the song of zero shooters if value equal 2 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+      style="text-align: center; margin: 30px;"
+    >
+      <form
+        class="form-group"
+      >
+        <label>
+          Nombre de shooters:
+          <input
+            class="form-control"
+            id="formGroupExampleInput"
+            type="text"
+            value="2"
+          />
+        </label>
+        <input
+          type="submit"
+          value="Envoyer"
+        />
+        <div />
+      </form>
+      <p>
+        2 shooters sans alcool sur le mur, 2 shooters sans alcool. Bois en un et au suivant! 1 shooter sans alcool sur le mur.
+      </p>
+    </div>
+  </div>
+</body>
+`;

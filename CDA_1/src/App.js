@@ -1,4 +1,4 @@
-import Shooters from "./cores/shooters"
+import Shooters from "./pages/shooters"
 
 function App() {
 
