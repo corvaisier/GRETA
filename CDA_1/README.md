@@ -3,28 +3,26 @@
 Ce projet a été développé en <strong>React</strong> avec <strong>create-react-app</strong>. 
 
 Le choix a été fait d'utiliser <strong>Bootstrap 4</strong> en CDN afin de ne pas alourdir le fichier. Ensuite afin de démontrer ma logique, j'ai souhaité ne pas utiliser de librairie de formulaires tel que Formik ou React-hook-form pour faire la gestion des événements à la main.
-Utilisation de la librairie de contrôle <strong>[yup] (https://github.com/jquense/yup)</strong>
+Utilisation de la librairie de contrôle <strong>yup</strong> https://github.com/jquense/yup
+Utilisation de la librairie de test <strong>jest</strong> https://jestjs.io/docs/en/tutorial-react
 
 ## Commandes à lancer
 
-Dans ce projet pour l'initier une fois l'avoir <strong>git clone</strong> vous devez:
+Dans ce projet pour le lancer une fois l'avoir <strong>git clone</strong> vous devez:
 
 Exécuter ces commandes dans le dossier <strong>CDA_1</strong>
+
+### `npm install`
 
 ### `npm start`
 
 Exécute l'application en mode développement. 
-Ouvrez [http://localhost:3000](http: // localhost: 3000) pour l'afficher dans le navigateur.
+Le projet se lancera tout seul ou vous pourrez le trouver ici http://localhost:3000 
 
 ### `npm run test -- CDA_1/src/pages/shooters.spec.jsx`
 
-Exécute les tests contenus dans le fichier shooters.spec.jsx.
+Exécute les tests unitaires contenus dans le fichier shooters.spec.jsx.
 Les résultats s'afficheront dans le terminal.
-Si vous modifiez le code, il faudra rajouter l'option -u après -- .
-
-### `npm run build` 
-
- [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## En savoir plus
 
