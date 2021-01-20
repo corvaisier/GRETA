@@ -4,7 +4,7 @@ function Header () {
 
     return (
         <>
-            <div>{meal}</div>
+            <div style={{marginBottom:"20px"}}>{meal}</div>
         </>
   )
 }

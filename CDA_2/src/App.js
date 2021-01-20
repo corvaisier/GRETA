@@ -7,9 +7,9 @@ import MiamWeekForm from "./pages/previsionForm"
 function App() {
   const [menu, setMenu] = useState([])
   const [day, numberOfDay] = useState("")
-  
+
   return (
-    <div className="App">
+    <div className="App" style={{textAlign:"center", marginTop:"50px"}}>
       <Header />
       <MiamForm
         menu={menu}
