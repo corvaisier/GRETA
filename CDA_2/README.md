@@ -4,8 +4,6 @@ Ce projet a été développé en <strong>React</strong> avec <strong>create-reac
 
 ## Commandes à lancer
 
-Dans ce projet pour le lancer une fois l'avoir <strong>git clone</strong> vous devez:
-
 Exécuter ces commandes dans le dossier <strong>CDA_2</strong>
 
 ### `npm install`
