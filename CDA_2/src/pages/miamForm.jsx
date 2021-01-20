@@ -4,6 +4,7 @@ function MiamForm({ menu, setMenu }) {
     const pizza = "🍕"
     const broccoli = "🥦"
 
+    //update setMenu with menu and a new element
     const addMenuClicked = (event) => {
         setMenu([...menu, event.target.value])
     }

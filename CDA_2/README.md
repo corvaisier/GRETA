@@ -1,4 +1,4 @@
-# Exercice CDA 1
+# Exercice CDA 2
 
 Ce projet a été développé en <strong>React</strong> avec <strong>create-react-app</strong>
 
