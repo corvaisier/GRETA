@@ -20,7 +20,6 @@ function MiamWeekForm({ menu, day, numberOfDay }) {
                         day={day}
                     />
                 </div>
-
             }
         </>
     )
